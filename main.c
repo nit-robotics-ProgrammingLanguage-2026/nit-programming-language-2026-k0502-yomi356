@@ -4,13 +4,13 @@ int main(void)
 {
     int input;
     scanf("%d", &input);
-    if (0 /* TODO: ここに条件式を書く */)
+    if (input >= 10 && input < 15 && input != 12)
     {
-        printf("OK");
+        printf("OK\n");
     }
     else
     {
-        printf("NG");
+        printf("NG\n");
     }
     return 0;
 }
